@@ -1,7 +1,6 @@
 <?php
     // Simple PHP Page
-    $title = "My Simple PHP Page";
-    phpinfo();
+    $title = "Welcome page";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +10,7 @@
     <title><?php echo $title; ?></title>
 </head>
 <body>
-    <h1>Welcome to <?php echo $title; ?></h1>
+    <h1>hiii <?php echo $title; ?></h1>
     <p>This is a basic PHP webpage.</p>
     <p>Current Date and Time: <?php echo date('Y-m-d H:i:s'); ?></p>
 </body>
