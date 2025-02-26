@@ -1,6 +1,7 @@
 <?php
     // Simple PHP Page
     $title = "My Simple PHP Page";
+    phpinfo();
 ?>
 <!DOCTYPE html>
 <html lang="en">
